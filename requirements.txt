@@ -1,8 +1,10 @@
+beautifulsoup4==4.3.2
 cssselect==0.8
-distribute==0.6.24
+distribute==0.7.3
 lxml==3.2.3
 peewee==2.1.4
 pyquery==1.2.4
 requests==2.0.0
 selenium==2.35.0
 wsgiref==0.1.2
+xmltodict==0.8.1

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReturnObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/newWebServices/LocationVerifier">
+  <details>&lt;STRONG&gt;Parsed:&lt;/STRONG&gt;&lt;/br&gt;&lt;EM&gt;Street Name: &lt;/EM&gt;FLORIDA&lt;/br&gt;&lt;EM&gt;Street Type: &lt;/EM&gt;AVENUE&lt;/br&gt;&lt;EM&gt;Quad: &lt;/EM&gt;NW&lt;/br&gt;&lt;EM&gt;Block Number: &lt;/EM&gt;1731 - 1785&lt;/br&gt;&lt;STRONG&gt;Possible Standard Street Names: &lt;/STRONG&gt;&lt;/br&gt;FLORIDA&lt;/br&gt;</details>
+  <returnDataset>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Table1">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MARID" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LOWER_RANGE" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="HIGHER_RANGE" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="STREETSEGID" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="INTERSECTION1ID" type="xs:string" minOccurs="0" />
+                  <xs:element name="INTERSECTION2ID" type="xs:string" minOccurs="0" />
+                  <xs:element name="ONSTREETID" type="xs:string" minOccurs="0" />
+                  <xs:element name="FROMSTREETID" type="xs:string" minOccurs="0" />
+                  <xs:element name="TOSTREETID" type="xs:string" minOccurs="0" />
+                  <xs:element name="THEORANGELL" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="THEORANGELH" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="THEORANGERL" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="THEORANGERH" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ACTUALRANGELL" type="xs:string" minOccurs="0" />
+                  <xs:element name="ACTUALRANGELH" type="xs:string" minOccurs="0" />
+                  <xs:element name="ACTUALRANGERL" type="xs:string" minOccurs="0" />
+                  <xs:element name="ACTUALRANGERH" type="xs:string" minOccurs="0" />
+                  <xs:element name="FULLBLOCK" type="xs:string" minOccurs="0" />
+                  <xs:element name="BLOCKNAME" type="xs:string" minOccurs="0" />
+                  <xs:element name="ONSTNAME" type="xs:string" minOccurs="0" />
+                  <xs:element name="ONSTTYPE" type="xs:string" minOccurs="0" />
+                  <xs:element name="ONSTQUAD" type="xs:string" minOccurs="0" />
+                  <xs:element name="ONSTREETDISPLAY" type="xs:string" minOccurs="0" />
+                  <xs:element name="FROMSTNAME" type="xs:string" minOccurs="0" />
+                  <xs:element name="FROMSTTYPE" type="xs:string" minOccurs="0" />
+                  <xs:element name="FROMSTQUAD" type="xs:string" minOccurs="0" />
+                  <xs:element name="FROMSTREETDISPLAY" type="xs:string" minOccurs="0" />
+                  <xs:element name="TOSTNAME" type="xs:string" minOccurs="0" />
+                  <xs:element name="TOSTTYPE" type="xs:string" minOccurs="0" />
+                  <xs:element name="TOSTQUAD" type="xs:string" minOccurs="0" />
+                  <xs:element name="TOSTREETDISPLAY" type="xs:string" minOccurs="0" />
+                  <xs:element name="CENTROIDX" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="CENTROIDY" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="EXTENTMINX" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="EXTENTMINY" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="EXTENTMAXX" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="EXTENTMAXY" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="NATIONALGRID" type="xs:string" minOccurs="0" />
+                  <xs:element name="LATITUDE" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LONGITUDE" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ConfidenceLevel" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+      <NewDataSet xmlns="">
+        <Table1 diffgr:id="Table11" msdata:rowOrder="0">
+          <MARID>802386</MARID>
+          <LOWER_RANGE>1731</LOWER_RANGE>
+          <HIGHER_RANGE>1785</HIGHER_RANGE>
+          <STREETSEGID>1920</STREETSEGID>
+          <INTERSECTION1ID>16680</INTERSECTION1ID>
+          <INTERSECTION2ID>16611</INTERSECTION2ID>
+          <ONSTREETID>103672</ONSTREETID>
+          <FROMSTREETID>107897</FROMSTREETID>
+          <TOSTREETID>108723</TOSTREETID>
+          <THEORANGELL>1766</THEORANGELL>
+          <THEORANGELH>1774</THEORANGELH>
+          <THEORANGERL>1731</THEORANGERL>
+          <THEORANGERH>1785</THEORANGERH>
+          <ACTUALRANGELL>1766</ACTUALRANGELL>
+          <ACTUALRANGELH>1768</ACTUALRANGELH>
+          <ACTUALRANGERL>0</ACTUALRANGERL>
+          <ACTUALRANGERH>0</ACTUALRANGERH>
+          <FULLBLOCK>FLORIDA AVENUE NW FROM SEATON STREET NW TO U STREET NW</FULLBLOCK>
+          <BLOCKNAME>1731 - 1785 BLOCK OF FLORIDA AVENUE NW</BLOCKNAME>
+          <ONSTNAME>FLORIDA</ONSTNAME>
+          <ONSTTYPE>AVENUE</ONSTTYPE>
+          <ONSTQUAD>NW</ONSTQUAD>
+          <ONSTREETDISPLAY>FLORIDA AVENUE NW</ONSTREETDISPLAY>
+          <FROMSTNAME>SEATON</FROMSTNAME>
+          <FROMSTTYPE>STREET</FROMSTTYPE>
+          <FROMSTQUAD>NW</FROMSTQUAD>
+          <FROMSTREETDISPLAY>SEATON STREET NW</FROMSTREETDISPLAY>
+          <TOSTNAME>U</TOSTNAME>
+          <TOSTTYPE>STREET</TOSTTYPE>
+          <TOSTQUAD>NW</TOSTQUAD>
+          <TOSTREETDISPLAY>U STREET NW</TOSTREETDISPLAY>
+          <CENTROIDX>396459.65</CENTROIDX>
+          <CENTROIDY>138822.23</CENTROIDY>
+          <EXTENTMINX>396424.95</EXTENTMINX>
+          <EXTENTMINY>138794.11</EXTENTMINY>
+          <EXTENTMAXX>396483.09</EXTENTMAXX>
+          <EXTENTMAXY>138860.70</EXTENTMAXY>
+          <NATIONALGRID>18S UJ 23068 09575</NATIONALGRID>
+          <LATITUDE>38.91726155448940</LATITUDE>
+          <LONGITUDE>-77.04082371741050</LONGITUDE>
+          <ConfidenceLevel>100</ConfidenceLevel>
+        </Table1>
+      </NewDataSet>
+    </diffgr:diffgram>
+  </returnDataset>
+  <returnBlkAddrDataset>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Table1">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ADDRESS_ID" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="STATUS" type="xs:string" minOccurs="0" />
+                  <xs:element name="FULLADDRESS" type="xs:string" minOccurs="0" />
+                  <xs:element name="ADDRNUM" type="xs:int" minOccurs="0" />
+                  <xs:element name="ADDRNUMSUFFIX" type="xs:string" minOccurs="0" />
+                  <xs:element name="STNAME" type="xs:string" minOccurs="0" />
+                  <xs:element name="STREET_TYPE" type="xs:string" minOccurs="0" />
+                  <xs:element name="QUADRANT" type="xs:string" minOccurs="0" />
+                  <xs:element name="CITY" type="xs:string" minOccurs="0" />
+                  <xs:element name="STATE" type="xs:string" minOccurs="0" />
+                  <xs:element name="XCOORD" type="xs:double" minOccurs="0" />
+                  <xs:element name="YCOORD" type="xs:double" minOccurs="0" />
+                  <xs:element name="SSL" type="xs:string" minOccurs="0" />
+                  <xs:element name="ANC" type="xs:string" minOccurs="0" />
+                  <xs:element name="PSA" type="xs:string" minOccurs="0" />
+                  <xs:element name="WARD" type="xs:string" minOccurs="0" />
+                  <xs:element name="NBHD_ACTION" type="xs:string" minOccurs="0" />
+                  <xs:element name="CLUSTER_" type="xs:string" minOccurs="0" />
+                  <xs:element name="POLDIST" type="xs:string" minOccurs="0" />
+                  <xs:element name="ROC" type="xs:string" minOccurs="0" />
+                  <xs:element name="CENSUS_TRACT" type="xs:string" minOccurs="0" />
+                  <xs:element name="VOTE_PRCNCT" type="xs:string" minOccurs="0" />
+                  <xs:element name="SMD" type="xs:string" minOccurs="0" />
+                  <xs:element name="ZIPCODE" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="NATIONALGRID" type="xs:string" minOccurs="0" />
+                  <xs:element name="ROADWAYSEGID" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="FOCUS_IMPROVEMENT_AREA" type="xs:string" minOccurs="0" />
+                  <xs:element name="HAS_ALIAS" type="xs:string" minOccurs="0" />
+                  <xs:element name="HAS_CONDO_UNIT" type="xs:string" minOccurs="0" />
+                  <xs:element name="HAS_RES_UNIT" type="xs:string" minOccurs="0" />
+                  <xs:element name="HAS_SSL" type="xs:string" minOccurs="0" />
+                  <xs:element name="LATITUDE" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="LONGITUDE" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="STREETVIEWURL" type="xs:string" minOccurs="0" />
+                  <xs:element name="RES_TYPE" type="xs:string" minOccurs="0" />
+                  <xs:element name="WARD_2002" type="xs:string" minOccurs="0" />
+                  <xs:element name="WARD_2012" type="xs:string" minOccurs="0" />
+                  <xs:element name="ANC_2002" type="xs:string" minOccurs="0" />
+                  <xs:element name="ANC_2012" type="xs:string" minOccurs="0" />
+                  <xs:element name="SMD_2002" type="xs:string" minOccurs="0" />
+                  <xs:element name="SMD_2012" type="xs:string" minOccurs="0" />
+                  <xs:element name="IMAGEURL" type="xs:string" minOccurs="0" />
+                  <xs:element name="IMAGEDIR" type="xs:string" minOccurs="0" />
+                  <xs:element name="IMAGENAME" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+      <NewDataSet xmlns="">
+        <Table1 diffgr:id="Table11" msdata:rowOrder="0">
+          <ADDRESS_ID>241396</ADDRESS_ID>
+          <STATUS>ACTIVE</STATUS>
+          <FULLADDRESS>1766 FLORIDA AVENUE NW</FULLADDRESS>
+          <ADDRNUM>1766</ADDRNUM>
+          <STNAME>FLORIDA</STNAME>
+          <STREET_TYPE>AVENUE</STREET_TYPE>
+          <QUADRANT>NW</QUADRANT>
+          <CITY>WASHINGTON</CITY>
+          <STATE>DC</STATE>
+          <XCOORD>396494.88</XCOORD>
+          <YCOORD>138845.75</YCOORD>
+          <SSL>0150    0304</SSL>
+          <ANC>ANC 1C</ANC>
+          <PSA>Police Service Area 301</PSA>
+          <WARD>Ward 1</WARD>
+          <NBHD_ACTION xml:space="preserve"> </NBHD_ACTION>
+          <CLUSTER_>Cluster 6</CLUSTER_>
+          <POLDIST>Police District - Third District</POLDIST>
+          <ROC>-</ROC>
+          <CENSUS_TRACT>004201</CENSUS_TRACT>
+          <VOTE_PRCNCT>Precinct 24</VOTE_PRCNCT>
+          <SMD>SMD 1C07</SMD>
+          <ZIPCODE>20009</ZIPCODE>
+          <NATIONALGRID>18S UJ 23104 09598</NATIONALGRID>
+          <ROADWAYSEGID>4222</ROADWAYSEGID>
+          <HAS_ALIAS>N</HAS_ALIAS>
+          <HAS_CONDO_UNIT>N</HAS_CONDO_UNIT>
+          <HAS_RES_UNIT>Y</HAS_RES_UNIT>
+          <HAS_SSL>Y</HAS_SSL>
+          <LATITUDE>38.91747357</LATITUDE>
+          <LONGITUDE>-77.04041760</LONGITUDE>
+          <STREETVIEWURL>http://maps.google.com/maps?z=16&amp;layer=c&amp;cbll=38.91747357,-77.0404176&amp;cbp=11,176.162296130007,,0,2.09</STREETVIEWURL>
+          <RES_TYPE>RESIDENTIAL</RES_TYPE>
+          <WARD_2002>Ward 1</WARD_2002>
+          <WARD_2012>Ward 1</WARD_2012>
+          <ANC_2002>ANC 1C</ANC_2002>
+          <ANC_2012>ANC 1C</ANC_2012>
+          <SMD_2002>SMD 1C08</SMD_2002>
+          <SMD_2012>SMD 1C07</SMD_2012>
+          <IMAGEURL>http://citizenatlas.dc.gov/mobilevideo</IMAGEURL>
+          <IMAGEDIR>20040817</IMAGEDIR>
+          <IMAGENAME>QH081139.jpg</IMAGENAME>
+        </Table1>
+        <Table1 diffgr:id="Table12" msdata:rowOrder="1">
+          <ADDRESS_ID>241395</ADDRESS_ID>
+          <STATUS>ACTIVE</STATUS>
+          <FULLADDRESS>1768 FLORIDA AVENUE NW</FULLADDRESS>
+          <ADDRNUM>1768</ADDRNUM>
+          <STNAME>FLORIDA</STNAME>
+          <STREET_TYPE>AVENUE</STREET_TYPE>
+          <QUADRANT>NW</QUADRANT>
+          <CITY>WASHINGTON</CITY>
+          <STATE>DC</STATE>
+          <XCOORD>396489.06</XCOORD>
+          <YCOORD>138836.06</YCOORD>
+          <SSL>0150    0303</SSL>
+          <ANC>ANC 1C</ANC>
+          <PSA>Police Service Area 301</PSA>
+          <WARD>Ward 1</WARD>
+          <NBHD_ACTION xml:space="preserve"> </NBHD_ACTION>
+          <CLUSTER_>Cluster 6</CLUSTER_>
+          <POLDIST>Police District - Third District</POLDIST>
+          <ROC>-</ROC>
+          <CENSUS_TRACT>004201</CENSUS_TRACT>
+          <VOTE_PRCNCT>Precinct 24</VOTE_PRCNCT>
+          <SMD>SMD 1C07</SMD>
+          <ZIPCODE>20009</ZIPCODE>
+          <NATIONALGRID>18S UJ 23098 09588</NATIONALGRID>
+          <ROADWAYSEGID>4222</ROADWAYSEGID>
+          <HAS_ALIAS>N</HAS_ALIAS>
+          <HAS_CONDO_UNIT>N</HAS_CONDO_UNIT>
+          <HAS_RES_UNIT>Y</HAS_RES_UNIT>
+          <HAS_SSL>Y</HAS_SSL>
+          <LATITUDE>38.91738626</LATITUDE>
+          <LONGITUDE>-77.04048466</LONGITUDE>
+          <STREETVIEWURL>http://maps.google.com/maps?z=16&amp;layer=c&amp;cbll=38.91738626,-77.04048466&amp;cbp=11,138.482796965479,,0,2.09</STREETVIEWURL>
+          <RES_TYPE>RESIDENTIAL</RES_TYPE>
+          <WARD_2002>Ward 1</WARD_2002>
+          <WARD_2012>Ward 1</WARD_2012>
+          <ANC_2002>ANC 1C</ANC_2002>
+          <ANC_2012>ANC 1C</ANC_2012>
+          <SMD_2002>SMD 1C08</SMD_2002>
+          <SMD_2012>SMD 1C07</SMD_2012>
+          <IMAGEURL>http://citizenatlas.dc.gov/mobilevideo</IMAGEURL>
+          <IMAGEDIR>20040817</IMAGEDIR>
+          <IMAGENAME>QH081249.jpg</IMAGENAME>
+        </Table1>
+        <Table1 diffgr:id="Table13" msdata:rowOrder="2">
+          <ADDRESS_ID>243132</ADDRESS_ID>
+          <STATUS>ACTIVE</STATUS>
+          <FULLADDRESS>1780 FLORIDA AVENUE NW</FULLADDRESS>
+          <ADDRNUM>1780</ADDRNUM>
+          <STNAME>FLORIDA</STNAME>
+          <STREET_TYPE>AVENUE</STREET_TYPE>
+          <QUADRANT>NW</QUADRANT>
+          <CITY>WASHINGTON</CITY>
+          <STATE>DC</STATE>
+          <XCOORD>396419.97000000003</XCOORD>
+          <YCOORD>138764.72</YCOORD>
+          <SSL>0151    0254</SSL>
+          <ANC>ANC 2B</ANC>
+          <PSA>Police Service Area 301</PSA>
+          <WARD>Ward 2</WARD>
+          <NBHD_ACTION xml:space="preserve"> </NBHD_ACTION>
+          <CLUSTER_>Cluster 6</CLUSTER_>
+          <POLDIST>Police District - Third District</POLDIST>
+          <ROC>-</ROC>
+          <CENSUS_TRACT>004201</CENSUS_TRACT>
+          <VOTE_PRCNCT>Precinct 141</VOTE_PRCNCT>
+          <SMD>SMD 2B08</SMD>
+          <ZIPCODE>20009</ZIPCODE>
+          <NATIONALGRID>18S UJ 23027 09518</NATIONALGRID>
+          <ROADWAYSEGID>12353</ROADWAYSEGID>
+          <HAS_ALIAS>N</HAS_ALIAS>
+          <HAS_CONDO_UNIT>N</HAS_CONDO_UNIT>
+          <HAS_RES_UNIT>N</HAS_RES_UNIT>
+          <HAS_SSL>Y</HAS_SSL>
+          <LATITUDE>38.91674333</LATITUDE>
+          <LONGITUDE>-77.04128097</LONGITUDE>
+          <STREETVIEWURL>http://maps.google.com/maps?z=16&amp;layer=c&amp;cbll=38.91674333,-77.04128097&amp;cbp=11,142.991625043874,,0,2.09</STREETVIEWURL>
+          <RES_TYPE>NON RESIDENTIAL</RES_TYPE>
+          <WARD_2002>Ward 2</WARD_2002>
+          <WARD_2012>Ward 2</WARD_2012>
+          <ANC_2002>ANC 2B</ANC_2002>
+          <ANC_2012>ANC 2B</ANC_2012>
+          <SMD_2002>SMD 2B08</SMD_2002>
+          <SMD_2012>SMD 2B08</SMD_2012>
+          <IMAGEURL>http://citizenatlas.dc.gov/mobilevideo</IMAGEURL>
+          <IMAGEDIR>20040816</IMAGEDIR>
+          <IMAGENAME>QG120323.jpg</IMAGENAME>
+        </Table1>
+        <Table1 diffgr:id="Table14" msdata:rowOrder="3">
+          <ADDRESS_ID>279382</ADDRESS_ID>
+          <STATUS>ACTIVE</STATUS>
+          <FULLADDRESS>1781 FLORIDA AVENUE NW</FULLADDRESS>
+          <ADDRNUM>1781</ADDRNUM>
+          <STNAME>FLORIDA</STNAME>
+          <STREET_TYPE>AVENUE</STREET_TYPE>
+          <QUADRANT>NW</QUADRANT>
+          <CITY>WASHINGTON</CITY>
+          <STATE>DC</STATE>
+          <XCOORD>396453.60000000003</XCOORD>
+          <YCOORD>138846.56</YCOORD>
+          <SSL>2557    0800</SSL>
+          <ANC>ANC 1C</ANC>
+          <PSA>Police Service Area 303</PSA>
+          <WARD>Ward 1</WARD>
+          <NBHD_ACTION xml:space="preserve"> </NBHD_ACTION>
+          <CLUSTER_>Cluster 1</CLUSTER_>
+          <POLDIST>Police District - Third District</POLDIST>
+          <CENSUS_TRACT>003800</CENSUS_TRACT>
+          <VOTE_PRCNCT>Precinct 24</VOTE_PRCNCT>
+          <SMD>SMD 1C07</SMD>
+          <ZIPCODE>20009</ZIPCODE>
+          <NATIONALGRID>18S UJ 23062 09599</NATIONALGRID>
+          <ROADWAYSEGID>4222</ROADWAYSEGID>
+          <HAS_ALIAS>N</HAS_ALIAS>
+          <HAS_CONDO_UNIT>N</HAS_CONDO_UNIT>
+          <HAS_RES_UNIT>N</HAS_RES_UNIT>
+          <HAS_SSL>Y</HAS_SSL>
+          <LATITUDE>38.91748070</LATITUDE>
+          <LONGITUDE>-77.04089361</LONGITUDE>
+          <STREETVIEWURL>http://maps.google.com/maps?z=16&amp;layer=c&amp;cbll=38.9174807,-77.04089361&amp;cbp=11,298.895246397439,,0,2.09</STREETVIEWURL>
+          <RES_TYPE>NON RESIDENTIAL</RES_TYPE>
+          <WARD_2002>Ward 1</WARD_2002>
+          <WARD_2012>Ward 1</WARD_2012>
+          <ANC_2002>ANC 1C</ANC_2002>
+          <ANC_2012>ANC 1C</ANC_2012>
+          <SMD_2002>SMD 1C07</SMD_2002>
+          <SMD_2012>SMD 1C07</SMD_2012>
+          <IMAGEURL>http://citizenatlas.dc.gov/mobilevideo</IMAGEURL>
+          <IMAGEDIR>20041004</IMAGEDIR>
+          <IMAGENAME>M4074038.jpg</IMAGENAME>
+        </Table1>
+        <Table1 diffgr:id="Table15" msdata:rowOrder="4">
+          <ADDRESS_ID>241485</ADDRESS_ID>
+          <STATUS>ACTIVE</STATUS>
+          <FULLADDRESS>1782 FLORIDA AVENUE NW</FULLADDRESS>
+          <ADDRNUM>1782</ADDRNUM>
+          <STNAME>FLORIDA</STNAME>
+          <STREET_TYPE>AVENUE</STREET_TYPE>
+          <QUADRANT>NW</QUADRANT>
+          <CITY>WASHINGTON</CITY>
+          <STATE>DC</STATE>
+          <XCOORD>396415.13</XCOORD>
+          <YCOORD>138762.31</YCOORD>
+          <SSL>0151    0253</SSL>
+          <ANC>ANC 2B</ANC>
+          <PSA>Police Service Area 301</PSA>
+          <WARD>Ward 2</WARD>
+          <NBHD_ACTION xml:space="preserve"> </NBHD_ACTION>
+          <CLUSTER_>Cluster 6</CLUSTER_>
+          <POLDIST>Police District - Third District</POLDIST>
+          <ROC>-</ROC>
+          <CENSUS_TRACT>004201</CENSUS_TRACT>
+          <VOTE_PRCNCT>Precinct 141</VOTE_PRCNCT>
+          <SMD>SMD 2B08</SMD>
+          <ZIPCODE>20009</ZIPCODE>
+          <NATIONALGRID>18S UJ 23022 09516</NATIONALGRID>
+          <ROADWAYSEGID>12353</ROADWAYSEGID>
+          <HAS_ALIAS>N</HAS_ALIAS>
+          <HAS_CONDO_UNIT>N</HAS_CONDO_UNIT>
+          <HAS_RES_UNIT>N</HAS_RES_UNIT>
+          <HAS_SSL>Y</HAS_SSL>
+          <LATITUDE>38.91672160</LATITUDE>
+          <LONGITUDE>-77.04133676</LONGITUDE>
+          <STREETVIEWURL>http://maps.google.com/maps?z=16&amp;layer=c&amp;cbll=38.9167216,-77.04133676&amp;cbp=11,158.05477935469,,0,2.09</STREETVIEWURL>
+          <RES_TYPE>NON RESIDENTIAL</RES_TYPE>
+          <WARD_2002>Ward 2</WARD_2002>
+          <WARD_2012>Ward 2</WARD_2012>
+          <ANC_2002>ANC 2B</ANC_2002>
+          <ANC_2012>ANC 2B</ANC_2012>
+          <SMD_2002>SMD 2B08</SMD_2002>
+          <SMD_2012>SMD 2B08</SMD_2012>
+          <IMAGEURL>http://citizenatlas.dc.gov/mobilevideo</IMAGEURL>
+          <IMAGEDIR>20040816</IMAGEDIR>
+          <IMAGENAME>QG120338.jpg</IMAGENAME>
+        </Table1>
+        <Table1 diffgr:id="Table16" msdata:rowOrder="5">
+          <ADDRESS_ID>241484</ADDRESS_ID>
+          <STATUS>ACTIVE</STATUS>
+          <FULLADDRESS>1784 FLORIDA AVENUE NW</FULLADDRESS>
+          <ADDRNUM>1784</ADDRNUM>
+          <STNAME>FLORIDA</STNAME>
+          <STREET_TYPE>AVENUE</STREET_TYPE>
+          <QUADRANT>NW</QUADRANT>
+          <CITY>WASHINGTON</CITY>
+          <STATE>DC</STATE>
+          <XCOORD>396409.86</XCOORD>
+          <YCOORD>138760.57</YCOORD>
+          <SSL>0151    0252</SSL>
+          <ANC>ANC 2B</ANC>
+          <PSA>Police Service Area 301</PSA>
+          <WARD>Ward 2</WARD>
+          <NBHD_ACTION xml:space="preserve"> </NBHD_ACTION>
+          <CLUSTER_>Cluster 6</CLUSTER_>
+          <POLDIST>Police District - Third District</POLDIST>
+          <ROC>-</ROC>
+          <CENSUS_TRACT>004201</CENSUS_TRACT>
+          <VOTE_PRCNCT>Precinct 141</VOTE_PRCNCT>
+          <SMD>SMD 2B08</SMD>
+          <ZIPCODE>20009</ZIPCODE>
+          <NATIONALGRID>18S UJ 23017 09514</NATIONALGRID>
+          <ROADWAYSEGID>12353</ROADWAYSEGID>
+          <HAS_ALIAS>N</HAS_ALIAS>
+          <HAS_CONDO_UNIT>N</HAS_CONDO_UNIT>
+          <HAS_RES_UNIT>N</HAS_RES_UNIT>
+          <HAS_SSL>Y</HAS_SSL>
+          <LATITUDE>38.91670590</LATITUDE>
+          <LONGITUDE>-77.04139752</LONGITUDE>
+          <STREETVIEWURL>http://maps.google.com/maps?z=16&amp;layer=c&amp;cbll=38.9167059,-77.04139752&amp;cbp=11,137.730764103666,,0,2.09</STREETVIEWURL>
+          <RES_TYPE>NON RESIDENTIAL</RES_TYPE>
+          <WARD_2002>Ward 2</WARD_2002>
+          <WARD_2012>Ward 2</WARD_2012>
+          <ANC_2002>ANC 2B</ANC_2002>
+          <ANC_2012>ANC 2B</ANC_2012>
+          <SMD_2002>SMD 2B08</SMD_2002>
+          <SMD_2012>SMD 2B08</SMD_2012>
+          <IMAGEURL>http://citizenatlas.dc.gov/mobilevideo</IMAGEURL>
+          <IMAGEDIR>20040816</IMAGEDIR>
+          <IMAGENAME>QG120407.jpg</IMAGENAME>
+        </Table1>
+        <Table1 diffgr:id="Table17" msdata:rowOrder="6">
+          <ADDRESS_ID>279387</ADDRESS_ID>
+          <STATUS>ACTIVE</STATUS>
+          <FULLADDRESS>1785 FLORIDA AVENUE NW</FULLADDRESS>
+          <ADDRNUM>1785</ADDRNUM>
+          <STNAME>FLORIDA</STNAME>
+          <STREET_TYPE>AVENUE</STREET_TYPE>
+          <QUADRANT>NW</QUADRANT>
+          <CITY>WASHINGTON</CITY>
+          <STATE>DC</STATE>
+          <XCOORD>396421.97000000003</XCOORD>
+          <YCOORD>138811.72</YCOORD>
+          <SSL>2557    0020</SSL>
+          <ANC>ANC 1C</ANC>
+          <PSA>Police Service Area 303</PSA>
+          <WARD>Ward 1</WARD>
+          <NBHD_ACTION xml:space="preserve"> </NBHD_ACTION>
+          <CLUSTER_>Cluster 1</CLUSTER_>
+          <POLDIST>Police District - Third District</POLDIST>
+          <ROC>-</ROC>
+          <CENSUS_TRACT>003800</CENSUS_TRACT>
+          <VOTE_PRCNCT>Precinct 24</VOTE_PRCNCT>
+          <SMD>SMD 1C07</SMD>
+          <ZIPCODE>20009</ZIPCODE>
+          <NATIONALGRID>18S UJ 23032 09572</NATIONALGRID>
+          <ROADWAYSEGID>19387</ROADWAYSEGID>
+          <HAS_ALIAS>N</HAS_ALIAS>
+          <HAS_CONDO_UNIT>N</HAS_CONDO_UNIT>
+          <HAS_RES_UNIT>N</HAS_RES_UNIT>
+          <HAS_SSL>Y</HAS_SSL>
+          <LATITUDE>38.91716673</LATITUDE>
+          <LONGITUDE>-77.04125815</LONGITUDE>
+          <STREETVIEWURL>http://maps.google.com/maps?z=16&amp;layer=c&amp;cbll=38.91716673,-77.04125815&amp;cbp=11,355.560117573061,,0,2.09</STREETVIEWURL>
+          <RES_TYPE>NON RESIDENTIAL</RES_TYPE>
+          <WARD_2002>Ward 1</WARD_2002>
+          <WARD_2012>Ward 1</WARD_2012>
+          <ANC_2002>ANC 1C</ANC_2002>
+          <ANC_2012>ANC 1C</ANC_2012>
+          <SMD_2002>SMD 1C07</SMD_2002>
+          <SMD_2012>SMD 1C07</SMD_2012>
+          <IMAGEURL>http://citizenatlas.dc.gov/mobilevideo</IMAGEURL>
+          <IMAGEDIR>20041004</IMAGEDIR>
+          <IMAGENAME>M4074112.jpg</IMAGENAME>
+        </Table1>
+      </NewDataSet>
+    </diffgr:diffgram>
+  </returnBlkAddrDataset>
+  <returnCDDataSet>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Address_x0020_Return_x0020_Codes">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Component" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parsed_x0020__x0026__x0020_Normalized" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                  <xs:element name="Assessment" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+      <NewDataSet xmlns="">
+        <Address_x0020_Return_x0020_Codes diffgr:id="Address Return Codes1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+          <Component>Street Type</Component>
+          <Parsed_x0020__x0026__x0020_Normalized>AVENUE</Parsed_x0020__x0026__x0020_Normalized>
+          <Assessment>Valid</Assessment>
+        </Address_x0020_Return_x0020_Codes>
+        <Address_x0020_Return_x0020_Codes diffgr:id="Address Return Codes2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+          <Component>Quad</Component>
+          <Parsed_x0020__x0026__x0020_Normalized>NW</Parsed_x0020__x0026__x0020_Normalized>
+          <Assessment>Valid</Assessment>
+        </Address_x0020_Return_x0020_Codes>
+        <Address_x0020_Return_x0020_Codes diffgr:id="Address Return Codes3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+          <Component>Street Name</Component>
+          <Parsed_x0020__x0026__x0020_Normalized>FLORIDA</Parsed_x0020__x0026__x0020_Normalized>
+          <Assessment>Valid</Assessment>
+        </Address_x0020_Return_x0020_Codes>
+        <Address_x0020_Return_x0020_Codes diffgr:id="Address Return Codes4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+          <Component>Block Number/Street Name/Street Type</Component>
+          <Parsed_x0020__x0026__x0020_Normalized>1731 - 1785 BLOCK OF FLORIDA AVENUE</Parsed_x0020__x0026__x0020_Normalized>
+          <Assessment>Valid</Assessment>
+        </Address_x0020_Return_x0020_Codes>
+        <Address_x0020_Return_x0020_Codes diffgr:id="Address Return Codes5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+          <Component>Full Block</Component>
+          <Parsed_x0020__x0026__x0020_Normalized>1731 - 1785 BLOCK OF FLORIDA AVENUE NW</Parsed_x0020__x0026__x0020_Normalized>
+          <Assessment>Verified</Assessment>
+        </Address_x0020_Return_x0020_Codes>
+      </NewDataSet>
+    </diffgr:diffgram>
+  </returnCDDataSet>
+  <sourceOperation>DC Block Address</sourceOperation>
+</ReturnObject>
