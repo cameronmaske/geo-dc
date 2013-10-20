@@ -7,9 +7,9 @@ A collection of geospatial data for Washington D.C.
 Datasets (and demos!)
 ---------------------
 
+* [Crime incidents from 2013](https://github.com/cameronmaske/geo-dc/tree/master/dataset/crime/crime.geojson) - Taken from [http://data.dc.gov/](http://data.dc.gov/)
+* [Neighborhoods](https://github.com/cameronmaske/geo-dc/tree/master/dataset/neighorhoods/neighborhoods.geojson) - Credit to [@justgrimes](https://twitter.com/justgrimes) and [The Washington Post](http://apps.washingtonpost.com/investigative/homicides/)
 * [Airbnb listings](https://github.com/cameronmaske/geo-dc/tree/master/dataset/airbnb/airbnb.geojson)
-* [Crime incidents from 2013] - Taken from [http://data.dc.gov/](http://data.dc.gov/)(https://github.com/cameronmaske/geo-dc/tree/master/dataset/crime/crime.geojson)
-* [Neighborhoods](https://github.com/cameronmaske/geo-dc/tree/master/dataset/crime/crime.geojson) - Credit to [@justgrimes](https://twitter.com/justgrimes) and [The Washington Post](http://apps.washingtonpost.com/investigative/homicides/)
 
 Project structure
 -----------------
