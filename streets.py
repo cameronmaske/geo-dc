@@ -1,13 +1,12 @@
 import requests
 import json
+from settings import GOOGLE_API_KEY
 from time import sleep
-
-API_KEY = 'AIzaSyCNsF3leHx5-iLqdAupAmgLG4ZjyE5t3YM'
-# Console: https://code.google.com/apis/console/b/0/#project:845810689195:stats:places_backend
-# 1k limit per day
 
 
 def create_geojson():
+    # Console: https://code.google.com/apis/console/b/0/#project:845810689195:stats:places_backend
+    # 1k limit per day
     url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
     numbers = range(1, 50)
     streets = []
@@ -21,7 +20,7 @@ def create_geojson():
             params = {
                 "query": query,
                 "sensor": "true",
-                "key": API_KEY
+                "key": GOOGLE_API_KEY
             }
             json_response = requests.get(url, params=params).json()
             try:
