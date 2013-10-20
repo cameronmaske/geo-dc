@@ -1,0 +1,7 @@
+A map of neighorhood boundaries in the District of Columbia.
+The Washington Post derived the neighborhood boundaries by reviewing original subdivision data,
+by reviewing neighborhood maps published in The Post's Where We Live real estate section and by
+consulting community sources. The 217 neighborhoods shown are intended for standardized data
+analysis purposes. Work based on data acquired from Washington Post's Homicides in the
+District interactive map. See http://apps.washingtonpost.com/investigative/homicides/
+Data was scraped/cleaned up by Justin Grimes @justgrimes from Code for DC

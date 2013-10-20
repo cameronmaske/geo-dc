@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 def find_crime():
     features = []
-    limit = 50
+    limit = 100
     count = 0
 
     url = "http://citizenatlas.dc.gov/newwebservices/locationverifier.asmx/findLocation"
@@ -13,9 +13,6 @@ def find_crime():
     csv_file = csv.DictReader(open('crime.csv', 'rb'))
 
     for row in csv_file:
-        if count > limit:
-            break
-        count += 1
         try:
             params = {"str": row['BLOCKSITEADDRESS']}
             response = requests.get(url, params=params)
