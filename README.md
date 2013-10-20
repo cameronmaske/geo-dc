@@ -9,7 +9,7 @@ Datasets (and demos!)
 
 * [Crime incidents from 2013](https://github.com/cameronmaske/geo-dc/blob/master/datasets/crime/crime.geojson) - Taken from [http://data.dc.gov/](http://data.dc.gov/)
 * [Neighborhoods](https://github.com/cameronmaske/geo-dc/blob/master/datasets/neighborhoods/neighorhoods.geojson) - Credit to [@justgrimes](https://twitter.com/justgrimes) and [The Washington Post](http://apps.washingtonpost.com/investigative/homicides/)
-* [Airbnb listings](https://github.com/cameronmaske/geo-dc/tree/master/dataset/airbnb/airbnb.geojson)
+* [Airbnb listings](https://github.com/cameronmaske/geo-dc/blob/master/datasets/airbnb/airbnb.geojson)
 
 Project structure
 -----------------
