@@ -1,0 +1,5 @@
+cssselect==0.8
+lxml==3.2.3
+peewee==2.1.4
+pyquery==1.2.4
+selenium==2.35.0
