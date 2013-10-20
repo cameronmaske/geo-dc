@@ -9,9 +9,9 @@ def create_csv(filename="airbnb.csv"):
     # Query for all listings.
     airbnb_listings = AirbnbListing.select()
     # Get the current directory and filename (not used)
-    directory, filename = path.split(path.abspath(__file__))
+    directory, _ = path.split(path.abspath(__file__))
     # Change the output directory to dataset folders.
-    output_directory = directory.replace("data/airbnb", "dataset/airbnb")
+    output_directory = directory.replace("data/airbnb", "datasets/airbnb")
     f = open("{}/{}".format(output_directory, filename), 'wb')
 
     # Get all possible field names from keys.

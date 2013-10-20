@@ -4,12 +4,11 @@ from peewee import *
 # Get the current directory and filename (not used)
 directory, filename = path.split(path.abspath(__file__))
 # Change the output directory to dataset folders.
-output_directory = directory.replace("data/airbnb", "dataset/airbnb")
+output_directory = directory.replace("data/airbnb", "datasets/airbnb")
 
 database = SqliteDatabase(output_directory + '/airbnb.db')
 
-
-class AirbnbListing(BaseModel):
+class AirbnbListing(Model):
     airbnb_id = CharField(unqiue=True)
     room_type = CharField(null=True)
     bed_type = CharField(null=True)

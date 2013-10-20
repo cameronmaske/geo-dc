@@ -4,7 +4,7 @@ from peewee import *
 # Get the current directory and filename (not used)
 directory, filename = path.split(path.abspath(__file__))
 # Change the output directory to dataset folders.
-output_directory = directory.replace("data/crime", "dataset/crime")
+output_directory = directory.replace("data/crime", "datasets/crime")
 
 database = SqliteDatabase(output_directory + '/crime.db')
 

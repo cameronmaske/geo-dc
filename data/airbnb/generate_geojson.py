@@ -23,8 +23,9 @@ def generate_airbnb_geojson(filename="airbnb.geojson"):
         "features": features}
 
 
-    directory, filename = path.split(path.abspath(__file__))
-    output_directory = directory.replace("data/airbnb", "dataset/airbnb")
+    directory, _ = path.split(path.abspath(__file__))
+    output_directory = directory.replace("data/airbnb", "datasets/airbnb")
+    print "{}/{}".format(output_directory, filename)
 
     with open("{}/{}".format(output_directory, filename),'wb') as outfile:
         json.dump(geojson, outfile)
