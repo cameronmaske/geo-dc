@@ -4,7 +4,7 @@ from peewee import *
 # Get the current directory and filename (not used)
 directory, filename = path.split(path.abspath(__file__))
 # Change the output directory to dataset folders.
-output_directory = directory.replace("data/crime", "dataset/crime")
+output_directory = directory.replace("data/airbnb", "dataset/airbnb")
 
 database = SqliteDatabase(output_directory + '/airbnb.db')
 
@@ -26,6 +26,14 @@ class AirbnbListing(BaseModel):
         database = database
 
     def as_dict(self):
+        """
+        Turns the model into a dict of it's fields + additional calculated
+        infomation.
+
+        Note: I'm not sure I  method name as_dict().
+        But I can't think anything better at the moment!
+        """
+
         try:
             price_per_bedroom = float(self.price) / self.bedrooms
         except:

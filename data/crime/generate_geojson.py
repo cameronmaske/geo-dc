@@ -16,14 +16,13 @@ def generate_crime_geojson():
                 "type": "Point",
                 "coordinates":[crime.longitude, crime.latitude]},
             "properties": {
-                    "offense": crime.offense,
-                    "method": crime.method,
-                    "shift": crime.shift,
-                    "reported": crime.reported,
-                    "address": crime.block_address,
-                    "y": crime.block_y,
-                    "x": crime.block_x
-                    }})
+                "offense": crime.offense,
+                "method": crime.method,
+                "shift": crime.shift,
+                "reported": crime.reported,
+                "address": crime.block_address,
+                "y": crime.block_y,
+                "x": crime.block_x}})
 
     geojson = {
         "type": "FeatureCollection",
