@@ -29,7 +29,7 @@ def find_crime():
                 "type": "Feature",
                 "geometry": {
                     "type": "Point",
-                    "coordinates":[cords['lat'], cords['lng']],
+                    "coordinates":[cords['lng'], cords['lat']],
                     "properties": {
                         "offense": row["OFFENSE"],
                         "shift": row["SHIFT"],
