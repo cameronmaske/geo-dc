@@ -20,6 +20,7 @@ def find_crime():
             params = {"str": row['BLOCKSITEADDRESS']}
             response = requests.get(url, params=params)
             soup = BeautifulSoup(response.content)
+
             cords = {
                 'lat': soup.findAll('latitude')[0].text,
                 'lng': soup.findAll('longitude')[0].text
@@ -29,13 +30,19 @@ def find_crime():
                 "type": "Feature",
                 "geometry": {
                     "type": "Point",
-                    "coordinates":[cords['lng'], cords['lat']],
-                    "properties": {
+                    "coordinates":[cords['lng'], cords['lat']]},
+                "properties": {
                         "offense": row["OFFENSE"],
+                        "method": row['METHOD'],
                         "shift": row["SHIFT"],
-                        "time": row["REPORTDATETIME"]
-                    }}})
-            print cords
+                        "time": row["REPORTDATETIME"],
+                        "address": row['BLOCKSITEADDRESS'],
+                        "y": row['BLOCKYCOORD'],
+                        "x": row['BLOCKXCOORD'],
+                    }})
+
+            print "Added crime at {lng}:{lat}".format(**cords)
+
         except Exception as e:
             print "Failed for {} due to {}".format(row['BLOCKSITEADDRESS'], e)
 
@@ -44,7 +51,7 @@ def find_crime():
         "features": features
     }
 
-    with open('crime.geojson', 'w') as outfile:
+    with open('crime.geojson', 'wb') as outfile:
         json.dump(geojson, outfile)
 
 if __name__ == '__main__':
