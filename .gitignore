@@ -38,3 +38,5 @@ nosetests.xml
 
 # Project specific
 data/experimental/settings.py
+datasets/crime/fix.py
+/.vagrant

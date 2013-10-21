@@ -20,9 +20,9 @@ The project is split into two parts
 '/datasets'/ - Holds the sanitized data.
 This can be in several formats
 
-    1. [GeoJSON](http://geojson.org/). [Supported by GitHub](https://github.com/blog/1528-there-s-a-map-for-that)!.
-    2. Good old fashioned CSV.
-    3. A sqlite3 database.
+1. [GeoJSON](http://geojson.org/). [Supported by GitHub](https://github.com/blog/1528-there-s-a-map-for-that)!.
+2. Good old fashioned CSV.
+3. A sqlite3 database.
 
 
 Installation
