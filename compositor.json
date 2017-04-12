@@ -1,0 +1,85 @@
+{
+  "name": "cameronmaske/geo-dc",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "GEO DC",
+  "branch": "",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/cameronmaske/geo-dc",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "geo-dc",
+      "subhead": "A workspace for getting various GIS data about D.C ",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "geo-dc: A workspace for getting various GIS data about D.C ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "cameronmaske",
+          "repo": "geo-dc"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Geo data for D.C</h1>\n<p>A collection of geospatial data for Washington D.C.</p>\n<h2>Datasets (and demos!)</h2>\n<ul>\n<li><a href=\"https://github.com/cameronmaske/geo-dc/blob/master/datasets/crime/crime.geojson\">Crime incidents from 2013</a> - Taken from <a href=\"http://data.dc.gov/\">http://data.dc.gov/</a></li>\n<li><a href=\"https://github.com/cameronmaske/geo-dc/blob/master/datasets/neighborhoods/neighorhoods.geojson\">Neighborhoods</a> - Credit to <a href=\"https://twitter.com/justgrimes\">@justgrimes</a> and <a href=\"http://apps.washingtonpost.com/investigative/homicides/\">The Washington Post</a></li>\n<li><a href=\"https://github.com/cameronmaske/geo-dc/blob/master/datasets/airbnb/airbnb.geojson\">Airbnb listings</a></li>\n</ul>\n<h2>Project structure</h2>\n<p>The project is split into two parts</p>\n<p>&apos;/data&apos; - Holds the python code to generate, gather and sanitize the data.</p>\n<p>&apos;/datasets&apos;/ - Holds the sanitized data.\nThis can be in several formats</p>\n<ol>\n<li><a href=\"http://geojson.org/\">GeoJSON</a>. <a href=\"https://github.com/blog/1528-there-s-a-map-for-that\">Supported by GitHub</a>!.</li>\n<li>Good old fashioned CSV.</li>\n<li>A sqlite3 database.</li>\n</ol>\n<h2>Installation</h2>\n<p>The projects uses Vagrant (1.2.7) to provision an Ubuntu 12.04 VM where all the code is run. It should run on other enviroments, but Vagrant let&apos;s you recreate an agnostic development enviroment. To install vagrant.</p>\n<ol>\n<li><a href=\"http://downloads.vagrantup.com/tags/v1.2.7\">Download and install Vagrant 1.2.7</a></li>\n<li><a href=\"https://www.virtualbox.org/wiki/Downloads\">Download and install VirtualBox</a></li>\n<li><p><a href=\"https://github.com/saltstack/salty-vagrant\">Install Salty Vagrant</a></p>\n<p> vagrant plugin install vagrant-salt</p>\n</li>\n<li><p>Start up vagrant (This may take several minutes). In this directory run</p>\n<p> vagrant up</p>\n</li>\n<li><p>SSH into the vagrant machine.</p>\n<p> vagrant ssh</p>\n</li>\n</ol>\n<h2>Contributing</h2>\n<p>Contributes are welcome! For new datasets, the minimum requirement is a GeoJSON file.</p>\n<h2>Todos</h2>\n<ol>\n<li>Tests!</li>\n<li>Document approach to datasets.</li>\n<li>More datasets. Add any suggestions in an Issue.</li>\n</ol>\n<h2>Author</h2>\n<p><a href=\"http://www.cameronmaske.com\">Cameron Maske</a>. Feel free to <a href=\"http://www.twitter.com/cameronmaske\">drop me a tweet</a> with your thoughts!</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/cameronmaske/geo-dc",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/cameronmaske",
+          "text": "cameronmaske"
+        }
+      ]
+    }
+  ]
+}
